@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version               = Roleable::VERSION
   spec.authors               = ['Jesse McGinnis']
   spec.email                 = ['jesse@jcmcginnis.com']
-  spec.summary               = %q{Adds role based authorization to Rails with RoleModel and nice scopes.}
+  spec.summary               = %q{Adds role based authorization to Rails with RoleModel.}
   spec.description           = %q{Wraps RoleModel up to make role based authorization really easy in Rails >= 3.2.}
   spec.homepage              = 'https://github.com/elsom25/roleable'
   spec.license               = 'MIT'
@@ -31,6 +31,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'pry'
   spec.add_development_dependency 'pry-remote'
   spec.add_development_dependency 'pry-nav'
+  spec.add_development_dependency 'coveralls'
 
   # gem dependencies
   spec.add_runtime_dependency     'role_model'

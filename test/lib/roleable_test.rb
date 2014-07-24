@@ -1,8 +1,4 @@
-require 'minitest/pride'     # awesome colorful output
-require 'minitest/reporters' # fancier output format
-require 'pry'
-
-require 'roleable'
+require 'test_helper.rb'
 
 describe Roleable do
   subject{ Roleable }
