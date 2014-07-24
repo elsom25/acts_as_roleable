@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/elsom25/roleable.png?branch=master)](https://travis-ci.org/elsom25/roleable)
+
+[![Coverage Status](https://coveralls.io/repos/elsom25/roleable/badge.png)](https://coveralls.io/r/elsom25/roleable)
+
 # Roleable
 
 TODO: Write a gem description
