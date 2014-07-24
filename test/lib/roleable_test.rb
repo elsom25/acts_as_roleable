@@ -4,10 +4,10 @@ describe Roleable do
   subject{ Roleable }
 
   it 'should not raise an error' do
-    subject.assert_nothing_raised
+    subject
   end
 
   it 'does stuff' do
-    pending
+    skip('no tests yet')
   end
 end

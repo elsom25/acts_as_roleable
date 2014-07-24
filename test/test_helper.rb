@@ -1,8 +1,11 @@
 require 'coveralls'
 Coveralls.wear!
 
-require 'minitest/pride'     # awesome colorful output
-require 'minitest/reporters' # fancier output format
+require 'minitest/spec'
+require 'minitest/autorun'
+require 'minitest/pride'
+require 'minitest/reporters'
+
 require 'pry'
 
 require 'roleable'
