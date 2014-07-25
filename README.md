@@ -4,7 +4,7 @@
 
 # Roleable
 
-TODO: Write a gem description
+Adds role based authorization to Rails using the lovely [RoleModel](https://github.com/martinrehfeld/role_model) and the scopes of [Canard](https://github.com/james2m/canard). No Authorization, just roles.
 
 ## Installation
 
@@ -22,7 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Any model you want to support roles and handy role scopes for, add:
+
+    acts_as_roleable roles: [:tester, :user, :owner]
+
+And be sure to add a `roles_mask:integer` column to the associated table. You can change the name of this column by passing the `roles_mask` attribute:
+
+    acts_as_roleable roles: [:tester, :user, :owner], roles_mask: :internal_mask
 
 ## Contributing
 
