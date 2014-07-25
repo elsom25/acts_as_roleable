@@ -1,11 +1,8 @@
-require 'active_record'
-require 'active_support/inflector'
+require 'active_support/core_ext'
 
 require 'roleable/version'
-require 'roleable/acts_as_roleable'
+require 'roleable/railtie'
 
 module Roleable
-  if defined? ActiveRecord::Base
-    ActiveRecord::Base.extend Roleable::ActsAsRoleable
-  end
+  autoload :ActsAsRoleable, 'roleable/acts_as_roleable'
 end
