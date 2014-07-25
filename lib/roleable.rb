@@ -1,8 +1,6 @@
-require 'active_support/core_ext'
+require 'role_model'
 
 require 'roleable/version'
-require 'roleable/railtie'
+require 'roleable/acts_as_roleable'
 
-module Roleable
-  autoload :ActsAsRoleable, 'roleable/acts_as_roleable'
-end
+require 'roleable/railtie' if defined?(Rails) && Rails::VERSION::MAJOR >= 3
