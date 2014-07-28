@@ -7,8 +7,6 @@
 
 Adds role based authorization to Rails using the lovely [RoleModel](https://github.com/martinrehfeld/role_model) and the scopes of [Canard](https://github.com/james2m/canard). No Authorization, just roles.
 
-To be renamed and released.
-
 ## Installation
 
 Add this line to your application's Gemfile:
