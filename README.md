@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/acts_as_roleable.png)](http://badge.fury.io/rb/acts_as_roleable)
 [![Build Status](https://travis-ci.org/elsom25/acts_as_roleable.png?branch=master)](https://travis-ci.org/elsom25/acts_as_roleable)
 [![Code Climate](https://codeclimate.com/github/elsom25/acts_as_roleable.png)](https://codeclimate.com/github/elsom25/acts_as_roleable)
 [![Coverage Status](https://coveralls.io/repos/elsom25/acts_as_roleable/badge.png)](https://coveralls.io/r/elsom25/acts_as_roleable)
