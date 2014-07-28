@@ -1,5 +1,6 @@
-require "acts_as_roleable/version"
+require 'role_model'
 
-module ActsAsRoleable
-  # Your code goes here...
-end
+require 'acts_as_roleable/version'
+require 'acts_as_roleable/implementation'
+
+require 'acts_as_roleable/railtie' if defined?(Rails) && Rails::VERSION::MAJOR >= 3
