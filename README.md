@@ -38,12 +38,14 @@ Now, you have a few different things you can try out.
 You can see if a user is of certain types:
 
     user = User.new(roles: :tester)
-    user.tester?            # => true
-    user.standard?          # => false
-    user.admin?             # => false
+    user.tester?             # => true
+    user.standard?           # => false
+    user.admin?              # => false
 
     # or the alternative syntax
-    user.has_role? :tester  # => true
+    user.has_role? :tester   # => true
+    user.has_role? :standard # => true
+    user.has_role? :admin    # => true
 
 But why stop there?
 
