@@ -1,4 +1,4 @@
-module ActsAsRoleable::Implementation
+module ActsAsRoleable::Roleatize
   def acts_as_roleable(*args)
     include RoleModel
     options = args.extract_options!

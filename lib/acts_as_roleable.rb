@@ -1,6 +1,4 @@
 require 'role_model'
 
-require 'acts_as_roleable/version'
-require 'acts_as_roleable/implementation'
-
-require 'acts_as_roleable/railtie' if defined?(Rails) && Rails::VERSION::MAJOR >= 3
+require_relative 'acts_as_roleable/version'
+require_relative 'acts_as_roleable/roleatize'

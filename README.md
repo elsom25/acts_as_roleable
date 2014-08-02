@@ -23,9 +23,13 @@ Or install it yourself as:
 
 ## Usage
 
-Any model you want to support roles and handy role scopes for, add:
+Let's say you have a User model that you want to add roles to. Just use the extend `ActsAsRoleable::Roleatize` method, and then use `acts_as_roleable` method. Example below:
 
-    acts_as_roleable roles: [:tester, :user, :owner]
+    class User < ActiveRecord::Base
+      extend ActsAsRoleable::Roleatize
+
+      acts_as_roleable roles: [:tester, :user, :owner]
+    end
 
 And be sure to add a `roles_mask:integer` column to the associated table. You can change the name of this column by passing the `roles_mask` attribute:
 
