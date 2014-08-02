@@ -44,8 +44,8 @@ You can see if a user is of certain types:
 
     # or the alternative syntax
     user.has_role? :tester   # => true
-    user.has_role? :standard # => true
-    user.has_role? :admin    # => true
+    user.has_role? :standard # => false
+    user.has_role? :admin    # => false
 
 But why stop there?
 
